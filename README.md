@@ -1,5 +1,10 @@
 # Viia Changelog
 
+## 2020-04-01
+
+### Added
+- Sometimes an account that has been connected to Viia will disapear from the bank, resulting in the user not getting new transactions from that account. When this happen we now show the user which account is missing and what they can do to get back on track.
+
 ## 2020-03-24
 
 ### Fixed
