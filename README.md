@@ -4,7 +4,7 @@
 
 ### Fixed
 - Account balance is updated 4 times a day (instead of the previously 3), so that it matches the update interval of transactions.
-- When we are fetching transaction from several account in one bank, we no longer fetch in parallel. The parallel calls could sometimes mess up the sessions with the banks, resulting in users losing their connection and having to reconnect to the bank. This will unfortunately impact performance for users with severals accounts.
+- When we are fetching transaction from several accounts in one bank, we no longer fetch in parallel. The parallel calls could sometimes mess up the sessions with the bank, resulting in users losing their connection and having to reconnect to the bank. This will unfortunately impact performance for users with severals accounts.
 
 ## 2020-04-01
 
