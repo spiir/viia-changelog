@@ -1,5 +1,11 @@
 # Viia Changelog
 
+## 2020-04-14
+
+### Fixed
+- Account balance is updated 4 times a day (instead of the previously 3), so that it matches the update interval of transactions.
+- Banks are now called synchronous and not asynchronous. The asynchronous calls could sometimes mess up the sessions with the banks, resulting in users loosing their connection and having to reconnect to the bank. Calling banks synchronous will unfortunately impact performance for users with severals accounts.
+
 ## 2020-04-01
 
 ### Added
