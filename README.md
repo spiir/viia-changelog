@@ -3,13 +3,13 @@
 ## 2020-04-14
 
 ### Fixed
-- Account balance is updated 4 times a day (instead of the previously 3), so that it matches the update interval of transactions.
-- When we are fetching transaction from several accounts in one bank, we no longer fetch in parallel. The parallel calls could sometimes mess up the sessions with the bank, resulting in users losing their connection and having to reconnect to the bank. This will unfortunately impact performance for users with severals accounts.
+- The account balance is updated four times a day instead of three, so it matches the update interval of transactions.
+- When we fetch transactions from several accounts in one bank, we no longer fetch in parallel. As the parallel calls could sometimes mess up the sessions with the bank, it could result in end users losing their connection and having to reconnect to the bank. Unfortunately, this will impact the performance for end users with several accounts.
 
 ## 2020-04-01
 
 ### Added
-- Sometimes an account that has been connected to Viia will disapear from the bank, resulting in the user not getting new transactions from that account. When this happen we now show the user which account is missing and what they can do to get back on track.
+- Sometimes, an account that has been connected to Viia will disapear from the bank. That means the end user is not getting new transactions from the specific account. When this happens, we now show the end user which account is missing and what they can do to get back on track.
 
 ## 2020-03-24
 
