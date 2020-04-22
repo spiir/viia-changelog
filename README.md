@@ -1,5 +1,10 @@
 # Viia Changelog
 
+## 2020-04-22
+### Fixed
+- Fixed matching of transaction on Danske Bank PSD2 that would result in the user not getting new data from their account.
+
+
 ## 2020-04-14
 
 ### Fixed
