@@ -1,7 +1,7 @@
 # Viia Changelog
 ## 2020-05-05
 ### Added
-- We've released a beta version of a new sign-up flow for one-time Viia users. The flow enables users to share data through Viia without having to go through the add email steps. After the data had been shared on behalf of the users, everything will be deleted within 24 hours, unless the users choose to claim their account. If you need continuous access to the users' data, you still need to use our regular flow. Read more here: docs.getviia.com
+- We've released a beta version of a new sign-up flow for one-time Viia users. The flow enables users to share data through Viia without having to go through the add email steps. After the data had been shared on behalf of the users, everything will be deleted within 24 hours, unless the users choose to claim their account. If you need continuous access to the users' data, you still need to use our regular flow. Read more here: https://docs.getviia.com/#/auth/one-time-flow/
 - We've also added categorisation to our transactions to give a better overview of the collective transactions.
 
 
