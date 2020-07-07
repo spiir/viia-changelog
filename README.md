@@ -7,7 +7,6 @@
 - Added new state `Queued` on transactions, for now this is a feature toggle on integrator level
 - One-time users can now claim their account during on-boarding
 - Integrator can request all accounts, when a one-time user is onboarded
-- 
 
 ### Fixed
 - Fixed that some ids on activity logs could be the same, resulting in some end-users getting stuck when adding new accounts
