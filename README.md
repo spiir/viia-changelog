@@ -12,7 +12,7 @@
 ### Fixed
 - Fixed that some ids on activity logs could be the same, resulting in some end-users getting stuck when adding new accounts
 -Invalid paging token resulted in a `Internal Server Error`, now integrator gets a `Bad Request`
-- If we could't send an end-user a email, an error message i shown
+- If we can't send an email to end-user, an error message is shown
 - Fixed browser navigation in persistent-user onboarding flow
 
 ## 2020-05-18
