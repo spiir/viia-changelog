@@ -1,4 +1,19 @@
 # Viia Changelog
+## 2020-07-06
+
+### Added
+- You can now skip the email page, when you are sending a end-user through the on-boarding
+- You can now try our beta Payments API
+- Added new state `Queued` on transactions, for now this is a feature toggle on integrator level
+- One-time users can now claim their account during on-boarding
+- Integrator can request all accounts, when a one-time user is onboarded
+
+### Fixed
+- Fixed that some ids on activity logs could be the same, resulting in some end-users getting stuck when adding new accounts
+- Invalid paging token resulted in a `Internal Server Error`, now integrator gets a `Bad Request`
+- If we can't send an email to end-user, an error message is shown
+- Fixed browser navigation in persistent-user on-boarding flow
+
 ## 2020-05-18
 
 ### Added
