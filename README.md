@@ -2,7 +2,7 @@
 ## 2020-07-06
 
 ### Added
-- You can now skip the email page, when you are sending a end-user through the onboarding
+- You can now skip the email page, when you are sending a end-user through the on-boarding
 - You can now try our beta Payments API
 - Added new state `Queued` on transactions, for now this is a feature toggle on integrator level
 - One-time users can now claim their account during on-boarding
